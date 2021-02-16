@@ -1,0 +1,18 @@
+/*
+Descarga la fuente que quieres usar en otf
+y usa este para convertir en ambos formatos woff y woff2
+https://cloudconvert.com/otf-to-woff
+https://cloudconvert.com/otf-to-woff2
+
+Luego guarda tus fuentes en (si no existe la carpeta creala)
+/wp-content/fonts/
+
+Por ultimo selecciona el nombre con el que lo vas a usar en el css "font-family"
+y los links correspondientes
+*/
+@font-face {
+    font-family: 'now-bold';
+    src: url('/wp-content/fonts/now.bold.woff2') format('woff2'),
+         url('/wp-content/fonts/now.bold.woff') format('woff');
+    font-weight: normal;
+}
