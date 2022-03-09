@@ -1,3 +1,4 @@
+<?php
 //Se agrega campo en el formulario de mi cuenta
 function get_user_meta_wp( $user_id, $key = '', $single = false ) {
     return get_metadata( 'user', $user_id, $key, $single );
